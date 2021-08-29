@@ -25,12 +25,32 @@ footer {
     padding: 20px;
 }
 
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
 /*
   Utility styles
 */
 
 .marg-top-20 {
     margin-top: 20px;
+}
+
+.marg-top-30 {
+    margin-top: 30px;
+}
+
+.marg-top-40 {
+    margin-top: 40px;
 }
 
 .flex-col {
@@ -48,7 +68,6 @@ footer {
 */
 
 .header_message {
-    font-size: 0.9rem;
     margin-bottom: 20px;
 }
 
@@ -92,4 +111,15 @@ footer {
 
 .warning_message {
     margin-top: 30px;
+}
+
+/*
+    Media Queries
+*/
+
+/* iPad and larger*/
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 20px;
+    }
 }
