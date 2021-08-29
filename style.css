@@ -1,10 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 5%;
+    font-size: 16px;
+}
+
 body {
+    color: white;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
     background-color: #0E0C50;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+/*
+  Utility styles
+*/
+
+.marg-top-20 {
+    margin-top: 20px;
+}
+
+.flex-col {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*
+  Classes
+*/
+
+.header_message {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.bmda_slogan {
+    font-size: 1.1rem;
+}
+
+.hero_text {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+.top_nav_ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.weightlist_title_section {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-h1 {
-    color: white;
+.weightlist_logo_box {
+    background-color: white;
+    margin: 0 0 0 10px;
+    height: 45px;
+    width: 45px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.weightlist_logo_img {
+    border-radius: 20%;
+}
+
+.warning_message {
+    margin-top: 30px;
 }
